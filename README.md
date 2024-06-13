@@ -1,12 +1,12 @@
 # Purpose
 
-Following in the steps of [365Inspect](https://github.com/soteria-security/365Inspect), [Soteria](https://soteria.io/) created AzureInspect to assist in furthering the state of Azure security by authoring a PowerShell script that automates the security assessment of Microsoft Azure environments.
+This project was created to assist in furthering the state of Azure security by authoring a PowerShell script that automates the security assessment of Microsoft Azure environments.
 
 # Setup
 
-AzureInspect requires the administrative PowerShell modules for Azure administration and the Microsoft Graph. 
+AzureInspector requires the administrative PowerShell modules for Azure administration and the Microsoft Graph. 
 
-The AzureInspect.ps1 PowerShell script will validate the installed modules.
+The AzureInspector.ps1 PowerShell script will validate the installed modules.
 
 If you do not have these modules installed, you will be prompted to install them, and with your approval, the script will attempt installation. Otherwise, you should be able to install them with the following commands in an administrative PowerShell prompt, or by following the instructions at the references below:
 
